@@ -1,0 +1,210 @@
+<div class="tex" style="display: flex; align-items: center; justify-content: center;">
+    <p style="font-size: 45px;">6.CLEAN WATER & SANITATION</p>
+  </div>  
+
+  <div class="cards">
+    <div class="services">
+       <div class="content content-1">
+          <div class="1" style="font-size: 66px;">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <h2>
+             Targets
+          </h2>
+          <p style="text-align: justify;">
+            <p>1. Safe water for all.</p>
+            <p>2. Proper sanitation and hygiene.</p>
+            <p>3. Clean water, less pollution.</p>
+            <p>4. Efficient water use.</p>
+            <p>5. Integrated water management.</p>
+            <p>6. Ecosystem protection.</p>
+            <p>7. Support for developing nations.</p>
+            <p>8. Community involvement.</p>
+          </p>
+          <a href="https://www.globalgoals.org/goals/6-clean-water-and-sanitation/">Read More</a>
+       </div>
+       <div class="content content-2">
+          <div class="2" style="font-size: 66px;"><i class="fa-solid fa-star"></i></div>
+          <h2>
+             Importance
+          </h2>
+          <p>
+            
+Clean Water and Sanitation, is essential for health, hygiene, and sustainable development. It provides safe drinking water, sanitation, reduces disease, and fosters economic growth and environmental conservation, especially in underserved areas and among marginalized populations.
+          </p>
+          <a href="https://www.airowater.com/products/why-is-it-important-to-have-clean-water-and-sanitation/">Read More</a>
+       </div>
+       <div class="content content-3">
+          <div class="3" style="font-size: 66px;"><i class="fa-solid fa-list-check"></i></i></div>
+          <h2>
+             Things To Do
+          </h2>
+          <p>
+            <p>1. Find a Goal 6 charity you want to support. Any donation, big or small can make difference.</p>
+            <p>2. Lend your voice to talk about the lack of toilets in communities.</p>
+            <p>3. Run a campaign on hygiene.</p>
+            <p>4. Organize a clean-up project for rivers and oceans.</p>
+          </p>
+          <a href="https://www.globalgoals.org/goals/6-clean-water-and-sanitation/">Read More</a>
+       </div>
+    </div>
+    <div class="services2">
+      <div class="content content-1">
+        <div class="1"><img src="challenges.png" height="66px"></div>
+        <h2>
+           Challenges
+        </h2>
+        <p>
+         Challenges like inadequate infrastructure, pollution, water scarcity, and funding shortages hinder universal access to safe water and sanitation. Marginalized communities and developing regions are especially affected, impeding progress toward this crucial goal.
+        </p>
+        <a href="https://www.researchgate.net/publication/7283174_Global_Challenges_in_Water_Sanitation_and_Health#:~:text=We%20review%20five%20major%20challenges,4)%20providing%20sustainable%20water%20supplies">Read More</a>
+     </div>
+     <div class="content content-2">
+        <div class="2" style="font-size: 66px;"><i class="fa-solid fa-lightbulb"></i></div>
+        <h2>
+           Facts
+        </h2>
+        <p>
+           <p>1. 2B lack safe water; 4.2B lack sanitation.</p>
+           <p>2. Waterborne diseases threaten global health.</p>
+           <p>3. Lack disproportionately affects women/girls.</p>
+           <p>4. Inadequate sanitation spreads diseases, especially urban.
+         </p>
+        </p>
+        <a href="https://reliefweb.int/report/world/top-10-facts-water-and-sanitation#:~:text=2.4%20billion%20people%20have%20no,otherwise%20unavailable%20for%20our%20use.">Read More</a>
+     </div>
+     <div class="content content-3">
+        <div class="3"><img src="initiative.png" height="66px "></div>
+        <h2>
+           Initiatives
+        </h2>
+        <p>
+         SDG 6 initiatives include infrastructure, purification projects, sanitation programs, hygiene education, community-led efforts, and global partnerships. They aim for universal clean water and sanitation access, prioritizing vulnerable regions and disadvantaged communities.
+        </p>
+        <a href="https://www.unwater.org/">Read More</a>
+     </div>
+    </div>
+ </div>
+
+  <div class="video" style="display: flex; align-items: center; justify-content: center; margin: 25px;"> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HszSrdjQ0Oo?si=sSh1hJhumFzYTJmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style=" border: 5px solid black;"></iframe>
+  </div>
+  <footer style="text-align: center; background-color: #6DAFFE; height: 75px; align-items: center; justify-content: center; display: flex; gap: 20px;">
+    <button style="height: 30px; width: 30px; border-radius: 50%; align-items: center; justify-content: center; display: flex; background-color: #28d12a;" onclick="location.href='index.html'"><i class="fa-solid fa-arrow-left"></i></button>
+    <p>©2024 by Raghav Wakhare | An SDG6 Website</p>
+    <button style="height: 30px; width: 30px; border-radius: 50%; align-items: center; justify-content: center; display: flex; background-color: #28d12a;" onclick="location.href='game.html'"><i class="fa-solid fa-arrow-right"></i></button>
+  </footer>
+
+
+
+
+
+
+
+
+
+CSS
+
+
+
+
+
+
+
+
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.services, .services2{
+  display: flex;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all .3s ease;
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+.content:hover{
+  color: white;
+}
+.content:hover a{
+  border-color: white;
+  background: white;
+}
+.content-1:hover{
+  border-color: #1DA1F2;
+  background: #1DA1F2;
+}
+.content-1:hover a{
+  color: #1DA1F2;
+}
+.content-2:hover{
+  border-color: #E1306C;
+  background: #E1306C;
+}
+.content-2:hover a{
+  color: #E1306C;
+}
+.content-3:hover{
+  border-color: #ff0000;
+  background: #ff0000;
+}
+.content-3:hover a{
+  color: #ff0000;
+}
+.content h2{
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+.content a{
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: .3s ease;
+}
+.content a:hover{
+  border-radius: 4px;
+}
+@media (max-width: 900px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+}

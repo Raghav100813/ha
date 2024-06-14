@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="icon" href="logo.png">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><a href="index.html"><img src="nav-logo.jpg" height="60px"></a></label>
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>    Home</a></li>
+        <li><a href="blogs.html"><i class="fa-solid fa-blog"></i>    Blogs</a></li>
+        <li><a href="game.html"><i class="fa-solid fa-gamepad"></i>    Games</a></li>
+        <li><a href="quiz.html"><i class="fa-solid fa-circle-question"></i>    Quizzes</a></li>
+        <li><a href="products.html"><i class="fa-brands fa-product-hunt"></i>    Our Products</a></li>
+        <li><a href="donation.html"><i class="fa-solid fa-hand-holding-dollar"></i>    Donations</a></li>
+        <li><a class="active" href="contact.html"><i class="fa-solid fa-phone"></i>    Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="heading">
+      <center>
+        <font face="Poppins" size="7">Contact Us</font>
+        <br />
+        <font face="Arial" size="6">We'd <span class="material-symbols-outlined" style="font-size: 30px;">
+          favorite
+          </span> to help!</font>
+      </center>
+    </div>
+    <div class="con" style="display: flex;">
+      <div class="contact-container" style="margin-left: 175px;">
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <div class="form-group">
+            <input type="hidden" name="access_key" value="eb691f28-c240-4a44-a126-da69455baf1d">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email" style="margin-top: 10px;">Email</label>
+              <input type="email" id="email" name="email" required>
+              <label for="message" style="margin-top: 10px;">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <br />
+      <br />
+      <div class="information" style="margin-top: 100px; margin-left: 60px; width: 500px;">
+        <center>
+          <font face="ubuntu" size="4"><b>Check out my another SDG6 Website</b></font>
+          <br />
+          <font face="ubuntu" size="4"><a href="https://sdg6cleanwater.netlify.app/">SDG6- Clean Water and Sanitation</a></font>
+          <br />
+          <br />
+          <br />
+          <font face="ubuntu" size="4"><b>Location</b></font>
+          <br />
+          <font face="ubuntu" size="4">Tahsildar quarter, Near Anand Traders, Muktainagar 425306, District Jalgaon, Maharashtra, India</font>
+          <br />
+          <br />
+          <br />
+          <font face="ubuntu" size="4"><b>Phone</b></font>
+          <br />
+          <font face="ubuntu" size="4">+91 97675 34848</font>
+          <br />
+          <br />
+          <br />
+          <font face="ubuntu" size="4"><b>email</b></font>
+          <br />
+          <font face="ubuntu" size="4">rwakhare08@gmail.com</font>
+          <br />
+          <br />
+        </center>
+        <hr size="4px" width="100%" style="margin-top: 10px;">
+        <div class="icons" style="margin-left: 185px; margin-top: 20px;">
+          <a href="https://www.facebook.com/login.php/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" width="30" height="30" style="margin-right: 5px;"></a>
+          <a href="https://in.linkedin.com/"><img src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" width="30" height="30" style="margin-right: 5px; margin-left: 5px;"></a>
+          <a href="https://www.instagram.com/" ><img src="instagram (1).png" width="30" height="30" style="margin-left: 5px;"></a>
+          <a href="https://www.youtube.com/channel/UCZWcL06UxQpd7lJXPzpAdVQ" ><img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png" width="30" height="30" style="margin-left: 5px;"></a>
+        </div>
+      </div>
+    </div>
+    
+  <br />
+  <br />
+</center>
+<footer style="text-align: center; background-color: blue; height: 75px; align-items: center; justify-content: center; display: flex; gap: 20px; width: 100%; margin-top: 20px;">
+  <button style="height: 30px; width: 30px; border-radius: 50%; align-items: center; justify-content: center; display: flex; background-color: #28d12a;" onclick="location.href='donation.html'"><i class="fa-solid fa-arrow-left"></i></button>
+  <p style="color: white;">©2024 by Raghav Wakhare | An SDG6 Website</p>
+</footer>
+  </body>
+</html>
+
